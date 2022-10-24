@@ -29,7 +29,7 @@ The image is built automatically as long as there is a tag added to this reposit
 
 [source,bash]
 ----
-git tag v3.1.0+devops-stack.XX
+git tag v3.1.0+devops-stack.1 # Use the correct versions instead of the ones in the example
 git push --tags
 ----
 
