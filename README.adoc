@@ -33,4 +33,4 @@ git tag v3.1.0+devops-stack.1 # Use the correct versions instead of the ones in 
 git push --tags
 ----
 
-Then, check if there is a new release available in https://github.com/orgs/camptocamp/packages?repo_name=devops-stack-docker-antora[`Packages`] separator on this repository.
+Then, check if there is a new release available in the https://github.com/camptocamp/devops-stack-docker-antora/pkgs/container/devops-stack-antora[`Packages`] section on this repository.
