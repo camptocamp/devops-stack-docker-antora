@@ -1,5 +1,5 @@
-FROM docker.io/antora/antora:3.1.0
+FROM docker.io/antora/antora:3.1.2
 
 RUN yarn global add \
     	@antora/lunr-extension@1.0.0-alpha.8 \
-    	asciidoctor-kroki@0.16
+    	asciidoctor-kroki@0.17
