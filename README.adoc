@@ -25,11 +25,13 @@ You can run it from elsewhere as long as you replace `$(pwd)` and explicitly poi
 
 == Release instructions
 
-The image is built automatically as long as there is a tag added to this repository. In order to do this, create a tag and push a tag on the `main` branch using the following steps:
+The image is built automatically as long as there is a tag added to this repository. 
+
+In order to do this, first make your modifications and commit them. After they have been merged to the `main` branch, you can then create and push a tag using the following steps:
 
 [source,bash]
 ----
-git tag v3.1.0+devops-stack.1 # Use the correct versions instead of the ones in the example
+git tag v3.1.2+devops-stack.1 # Use the correct versions instead of the ones in the example
 git push --tags
 ----
 
