@@ -1,11 +1,11 @@
 ---
-name: "Linters"
+name: "linters"
 
 on:
   pull_request:
 
 jobs:
-  commits_checks:
+  commits-checks:
     runs-on: ubuntu-latest
 
     steps:
